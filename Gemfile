@@ -15,6 +15,8 @@ gem 'brakeman'
 gem 'bootstrap-sass'
 gem 'font-awesome-rails'
 gem 'simple_form'
+gem 'summernote-rails'
+gem 'tinymce-rails'
 gem 'omniauth'
 gem 'devise', github: 'plataformatec/devise', branch: 'master'
 gem 'active_model_serializers'
@@ -33,6 +35,7 @@ group :development, :test do
   gem 'rails-controller-testing', git: 'https://github.com/rails/rails-controller-testing'
   gem 'rspec-rails', '3.5.0.beta2'
   gem 'guard'
+  gem 'guard-rspec', require: false
 end
 
 group :test do

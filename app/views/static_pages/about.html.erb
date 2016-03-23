@@ -1,3 +1,11 @@
 <% provide(:title, 'About') %>
-<h1>StaticPages#about</h1>
+<h1>Tinymce-rails HTML Editor</h1>
 <p>Find me in app/views/static_pages/about.html.erb</p>
+
+
+
+<%= tinymce_assets %>
+<script type="text/javascript" src="/assets/tinymce.js">
+</script>
+<%= text_area_tag :content, "Hey Whats Up?", :class => "tinymce", :rows => 10, :cols => 40 %>
+<%= tinymce %>

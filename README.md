@@ -1,8 +1,15 @@
-## Welcome to my Application, based on:
+## Summernote and Tinymce Integration Test, based on:
   Gemset ruby-2.3.0@rails5.0.0.beta3
   Ruby 2.3.0
   Rails 5.0.0.beta3
-* more stuff here
-* and even more stuff here
-* made change to this page to test changing file names and push
-* changed myapp name to myapp3 on dev and test pushing
+  
+  
+* Home page is showing Summernote-rails integration, can upload pics/videos and light weight.
+* About page is showing Tinymce-rails Integration, requires more work to upload pics/videos, full editor 
+* Did not test ckeditor although its integrated with paperclip, carrierwave, SimpleForm, CanCan, Pundit
+* Didn't test bootsy but, doesn't work well on mobile devices
+* wysiwyg-rails uses froala and is $99/year
+
+
+ 
+

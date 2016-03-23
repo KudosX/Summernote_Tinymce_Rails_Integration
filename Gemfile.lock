@@ -264,6 +264,8 @@ GEM
       pry (>= 0.9.12)
       shellany (~> 0.0)
       thor (>= 0.18.1)
+    guard-rspec (1.2.2)
+      guard (>= 1.1)
     haml (4.0.7)
       tilt
     hashie (3.4.3)
@@ -426,11 +428,15 @@ GEM
     sshkit (1.9.0)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
+    summernote-rails (0.8.1.1)
+      railties (>= 3.1)
     temple (0.7.6)
     terminal-table (1.5.2)
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (2.0.2)
+    tinymce-rails (4.3.8)
+      railties (>= 3.1.1)
     trollop (2.1.2)
     twilio-ruby (4.11.1)
       builder (>= 2.1.2)
@@ -482,6 +488,7 @@ DEPENDENCIES
   font-awesome-rails
   gibbon
   guard
+  guard-rspec
   jbuilder
   jquery-rails
   omniauth
@@ -497,6 +504,8 @@ DEPENDENCIES
   selenium-webdriver
   simple_form
   spring
+  summernote-rails
+  tinymce-rails
   twilio-ruby
   uglifier
   unicorn
