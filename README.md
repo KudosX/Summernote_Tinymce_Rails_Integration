@@ -9,6 +9,9 @@
 * Did not test ckeditor although its integrated with paperclip, carrierwave, SimpleForm, CanCan, Pundit
 * Didn't test bootsy but, doesn't work well on mobile devices
 * wysiwyg-rails uses froala and is $99/year
+- https://github.com/Nerian/bootstrap-wysihtml5-rails
+- https://github.com/steveathon/bootstrap-wysiwyg
+- https://github.com/bootstrap-wysiwyg/bootstrap3-wysiwyg
 
 
  
